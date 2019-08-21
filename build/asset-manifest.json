@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactstrap-resume/static/css/main.34de6062.chunk.css",
+    "main.js": "/reactstrap-resume/static/js/main.584858a8.chunk.js",
+    "main.js.map": "/reactstrap-resume/static/js/main.584858a8.chunk.js.map",
+    "runtime~main.js": "/reactstrap-resume/static/js/runtime~main.9809d8ce.js",
+    "runtime~main.js.map": "/reactstrap-resume/static/js/runtime~main.9809d8ce.js.map",
+    "static/css/2.266e55a5.chunk.css": "/reactstrap-resume/static/css/2.266e55a5.chunk.css",
+    "static/js/2.e6e2192b.chunk.js": "/reactstrap-resume/static/js/2.e6e2192b.chunk.js",
+    "static/js/2.e6e2192b.chunk.js.map": "/reactstrap-resume/static/js/2.e6e2192b.chunk.js.map",
+    "index.html": "/reactstrap-resume/index.html",
+    "precache-manifest.972fa6dd6ac2653dd38127f01c6ee897.js": "/reactstrap-resume/precache-manifest.972fa6dd6ac2653dd38127f01c6ee897.js",
+    "service-worker.js": "/reactstrap-resume/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/reactstrap-resume/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/reactstrap-resume/static/css/main.34de6062.chunk.css.map"
+  }
+}
