@@ -11,10 +11,10 @@ const fullPath = path => `${process.env.PUBLIC_URL}/${path}`;
 
 const Routes = () => (
   <BrowserRouter>
-    <Route exact path={fullPath("/")} component={About} />
-    <Route path={fullPath("/about")} component={About} />
-    <Route path={fullPath("/resume")} component={Resume} />
-    <Route path={fullPath("/projects")} component={Projects} />
+    <Route exact path="/" component={About} />
+    <Route path="/about" component={About} />
+    <Route path="/resume" component={Resume} />
+    <Route path="/projects" component={Projects} />
   </BrowserRouter>
 );
 
