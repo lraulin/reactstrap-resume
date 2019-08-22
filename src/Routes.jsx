@@ -7,12 +7,14 @@ import Projects from "./Projects";
 console.log("***THE URL IS:***");
 console.log(process.env.PUBLIC_URL);
 
+const fullPath = path => `${process.env.PUBLIC_URL}/${path}`;
+
 const Routes = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Route exact path="/" component={About} />
-    <Route path="/about" component={About} />
-    <Route path="/resume" component={Resume} />
-    <Route path="/projects" component={Projects} />
+  <BrowserRouter>
+    <Route exact path={fullPath("/")} component={About} />
+    <Route path={fullPath("/about")} component={About} />
+    <Route path={fullPath("/resume")} component={Resume} />
+    <Route path={fullPath("/projects")} component={Projects} />
   </BrowserRouter>
 );
 
