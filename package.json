@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://reactstrap-resume-69d3c.firebaseapp.com/",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
     "bootstrap": "^4.3.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",

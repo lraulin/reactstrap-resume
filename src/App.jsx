@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { HashRouter, BrowserRouter, Route } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -9,12 +8,7 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import ReactMarkdown from "react-markdown";
 
-import About from "./About";
-import Jumbo from "./Jumbo";
-import Resume from "./Resume";
-import Projects from "./Projects";
 import Routes from "./Routes";
 
 const App = props => {
@@ -42,11 +36,13 @@ const App = props => {
               <NavLink href="/projects/">Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/lraulin">Github</NavLink>
+              <NavLink href="https://github.com/lraulin">
+                <span className="fab fa-github"></span>
+              </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://www.linkedin.com/in/leeraulin/">
-                LinkedIn
+                <span class="fab fa-linkedin"></span>
               </NavLink>
             </NavItem>
           </Nav>

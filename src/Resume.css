@@ -1,0 +1,62 @@
+h2,
+p.subtitle {
+  font-size: 1.5em !important;
+}
+
+h3 {
+  font-size: 1.2em !important;
+}
+
+span.contactInfo {
+  margin-inline-end: 0.5em;
+}
+
+section.keywords {
+  display: none;
+}
+
+section#contactSection {
+  margin-bottom: 0.5em;
+}
+
+section.technicalSkillsSection ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+section#technicalSkillsSection li {
+  display: inline;
+  list-style: none;
+}
+
+section#technicalSkillsSection li::before {
+  content: " ";
+  /*
+  this content is important only for Crome in case the HTML will be minified with no whitespaces between </li><li>
+  */
+}
+
+section#technicalSkillsSection li::after {
+  content: " ";
+  white-space: normal;
+  word-spacing: 1em; /* = nav@padding-right - this actually makes width */
+  background-image: radial-gradient(
+    circle,
+    black,
+    black 7%,
+    transparent 15%,
+    transparent 35%,
+    black 45%,
+    black 48%,
+    transparent 55%
+  );
+  background-size: 1em 1em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.5;
+}
+
+em {
+  font-weight: bold;
+}
