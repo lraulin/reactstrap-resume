@@ -4,8 +4,11 @@ import About from "./About";
 import Resume from "./Resume";
 import Projects from "./Projects";
 
+console.log("***THE URL IS:***");
+console.log(process.env.PUBLIC_URL);
+
 const Routes = () => (
-  <BrowserRouter history={window.history} basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Route exact path="/" component={About} />
     <Route path="/about" component={About} />
     <Route path="/resume" component={Resume} />

@@ -91,7 +91,7 @@ const Resume = props => (
       <p className="dateRange">
         <time dateTime="2018-11">November 2018</time>
         {" ~ "}
-        <time datetime="2019-09">September 2019</time>
+        <time dateTime="2019-09">September 2019</time>
       </p>
       <p className="federalOnly" style={{ display: "none" }}>
         $60,000, 40 hours/week
@@ -152,7 +152,7 @@ const Resume = props => (
         (ESL/EFL)
       </h3>
       <p>
-        <time datetime="2009">2009</time> ~ <time datetime="2017">2017</time>{" "}
+        <time dateTime="2009">2009</time> ~ <time dateTime="2017">2017</time>{" "}
       </p>
       <h2>Education</h2>{" "}
       <h3>
