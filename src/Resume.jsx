@@ -30,10 +30,13 @@ const Resume = props => (
     <h1>Lee M. Raulin</h1>
     <h2>Full Stack Web Developer</h2>
     <section id="contactSection">
-      <p className="phoneNumber">(443) 684-8939</p>
-      <p className="emailAddress">leeraulin@gmail.com</p>
+      <p className="emailAddress">
+        <a href="mailto:leeraulin@gmail.com">leeraulin@gmail.com</a>
+      </p>
       <p className="streetAddress">
-        5006 Valley Drive Chesapeake Beach, MD 20732
+        <a href="https://www.google.com/maps/place/Chesapeake+Beach">
+          Chesapeake Beach, MD
+        </a>
       </p>
       <a href="http://github.com/lraulin">Github</a>
       <a href="http://www.linkedin.com/in/leeraulin" />

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactstrap-resume/static/css/main.34de6062.chunk.css",
-    "main.js": "/reactstrap-resume/static/js/main.3d1697bd.chunk.js",
-    "main.js.map": "/reactstrap-resume/static/js/main.3d1697bd.chunk.js.map",
-    "runtime~main.js": "/reactstrap-resume/static/js/runtime~main.9809d8ce.js",
-    "runtime~main.js.map": "/reactstrap-resume/static/js/runtime~main.9809d8ce.js.map",
-    "static/css/2.266e55a5.chunk.css": "/reactstrap-resume/static/css/2.266e55a5.chunk.css",
-    "static/js/2.6e35afcb.chunk.js": "/reactstrap-resume/static/js/2.6e35afcb.chunk.js",
-    "static/js/2.6e35afcb.chunk.js.map": "/reactstrap-resume/static/js/2.6e35afcb.chunk.js.map",
-    "index.html": "/reactstrap-resume/index.html",
-    "precache-manifest.ad0d55b9fceaca166eb55efc39893696.js": "/reactstrap-resume/precache-manifest.ad0d55b9fceaca166eb55efc39893696.js",
-    "service-worker.js": "/reactstrap-resume/service-worker.js",
-    "static/css/2.266e55a5.chunk.css.map": "/reactstrap-resume/static/css/2.266e55a5.chunk.css.map",
-    "static/css/main.34de6062.chunk.css.map": "/reactstrap-resume/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/static/css/main.34de6062.chunk.css",
+    "main.js": "/static/js/main.5358ea6f.chunk.js",
+    "main.js.map": "/static/js/main.5358ea6f.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.6b13ceea.js",
+    "runtime~main.js.map": "/static/js/runtime~main.6b13ceea.js.map",
+    "static/css/2.266e55a5.chunk.css": "/static/css/2.266e55a5.chunk.css",
+    "static/js/2.6e35afcb.chunk.js": "/static/js/2.6e35afcb.chunk.js",
+    "static/js/2.6e35afcb.chunk.js.map": "/static/js/2.6e35afcb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3b28eb25809e37b07bd30031bb300da8.js": "/precache-manifest.3b28eb25809e37b07bd30031bb300da8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map"
   }
 }
