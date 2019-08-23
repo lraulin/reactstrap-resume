@@ -8,7 +8,6 @@ import {
   NavItem,
   NavLink,
 } from "reactstrap";
-import pluralsightIcon from "./img/pluralsight.png";
 
 const Bar = props => {
   const [isOpen, setIsOpen] = useState(false);

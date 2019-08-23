@@ -29,10 +29,6 @@ const centered = {
   margin: "auto",
 };
 
-const hidden = {
-  display: "none",
-};
-
 const Resume = props => (
   <div>
     <Jumbotron>
