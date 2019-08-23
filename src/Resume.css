@@ -60,3 +60,7 @@ section#technicalSkillsSection li::after {
 em {
   font-weight: bold;
 }
+
+#resume {
+  margin-top: 2em;
+}
