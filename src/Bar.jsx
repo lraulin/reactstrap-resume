@@ -16,7 +16,7 @@ const Bar = props => {
     return setIsOpen(!isOpen);
   };
   return (
-    <Navbar color="dark" dark expand="md">
+    <Navbar color="dark" dark expand="md" fixed="top">
       <NavbarBrand href="/">Lee M. Raulin</NavbarBrand>
       <NavbarToggler onClick={toggle} />
       <Collapse isOpen={isOpen} navbar>
