@@ -42,7 +42,7 @@ const App = props => {
             </NavItem>
             <NavItem>
               <NavLink href="https://www.linkedin.com/in/leeraulin/">
-                <span class="fab fa-linkedin"></span>
+                <span className="fab fa-linkedin"></span>
               </NavLink>
             </NavItem>
           </Nav>

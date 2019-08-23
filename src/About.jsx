@@ -39,7 +39,7 @@ const About = () => (
           <p>
             My hobbies include reading (nonfiction), fitness (Indian clubs,
             functional strength, yoga, kayaking, natural movement, etc), and
-            camping.`;
+            camping.
           </p>
         </Col>
       </Row>
