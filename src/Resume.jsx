@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Jumbotron,
-  Container,
-  Row,
-  Col,
-  Button,
-  Card,
-  CardTitle,
-} from "reactstrap";
+import { Jumbotron, Container, Row, Col } from "reactstrap";
 import "./Resume.css";
 
 const keywords = [
