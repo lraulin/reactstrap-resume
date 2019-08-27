@@ -47,7 +47,7 @@ const Bar = props => {
           </NavItem>
           <NavItem>
             <NavLink href="https://www.freecodecamp.org/lraulin">
-              <i class="fab fa-free-code-camp"></i>
+              <i className="fab fa-free-code-camp"></i>
             </NavLink>
           </NavItem>
         </Nav>

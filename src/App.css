@@ -31,3 +31,15 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (min-width: 576px) {
+  #content {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #content {
+    margin-top: 4em;
+  }
+}
