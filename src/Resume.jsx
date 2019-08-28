@@ -74,7 +74,7 @@ const Resume = props => {
               <header>
                 <h1>Lee M. Raulin</h1>
                 <p className="subtitle" style={{ centered }}>
-                  Full Stack Web Developer
+                  JavaScript/Python Developer
                 </p>
               </header>
               <section id="contactSection">
