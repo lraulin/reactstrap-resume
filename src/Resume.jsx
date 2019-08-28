@@ -17,10 +17,10 @@ const keywords = [
   "working with command lines",
   "writing modules",
   "version control systems",
-  "DevOps practices",
   "responsive design",
-  "agile software development",
   "front-end systems",
+  "back-end systems",
+  "full-stack",
   "debugging",
   "server-side scripting",
   "writing application code",
@@ -33,7 +33,6 @@ const keywords = [
   "C#",
   "ASP.NET",
   "MVC",
-  "MVVM",
 ];
 
 const centered = {
@@ -83,7 +82,11 @@ const Resume = props => {
                 <h1>Lee M. Raulin</h1>
                 <p className="subtitle">JavaScript/Python Developer</p>
               </header>
-              <section id="contactSection">
+              {/* START contactSection */}
+              <section
+                id="contactSection"
+                style={{ marginBottom: "1em", overflow: "hidden" }}
+              >
                 <span className="contactInfo phoneNumber" style={floatLeft}>
                   <i className="fas fa-mobile-alt"></i> (443) 684-8939
                 </span>
@@ -100,7 +103,8 @@ const Resume = props => {
                   </a>
                 </span>
               </section>
-              <section id="summarySection" style={clear}>
+              {/* END contactSection */}
+              <section id="summarySection">
                 <h2>Summary</h2>
                 <p>
                   Dedicated and disciplined self-taught programmer 8+ years of
@@ -118,12 +122,6 @@ const Resume = props => {
                   JavaScript and Python have continued to develop, as I have
                   become familiar with the languages in depth and used them to
                   create solutions to real-world problems.
-                </p>
-              </section>
-              <section className="keywords">
-                <p>
-                  <em>Keywords:</em>
-                  {" " + keywords.join(", ")}
                 </p>
               </section>
               <section id="technicalSkillsSection">
@@ -147,6 +145,12 @@ const Resume = props => {
                   <li>Git/Github</li>
                   <li>Linux/Windows/OSX</li>
                 </ul>
+              </section>
+              <section className="keywords">
+                <p style={{ fontSize: "smaller" }}>
+                  <em>Keywords:</em>
+                  {" " + keywords.join(", ")}
+                </p>
               </section>
               <section id="experienceSection">
                 <h2>Professional Experience</h2>

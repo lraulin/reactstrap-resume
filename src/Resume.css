@@ -7,18 +7,6 @@ h3 {
   font-size: 1.2em !important;
 }
 
-span.contactInfo {
-  margin-inline-end: 0.5em;
-}
-
-section.keywords {
-  display: none;
-}
-
-section#contactSection {
-  margin-bottom: 0.5em;
-}
-
 section.technicalSkillsSection ul {
   display: inline;
   margin: 0;
