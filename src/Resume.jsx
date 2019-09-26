@@ -107,45 +107,40 @@ const Resume = props => {
               <section id="summarySection">
                 <h2>Summary</h2>
                 <p>
-                  Dedicated and disciplined self-taught programmer 8+ years of
-                  experience as an English as a Second Language teacher in Korea
-                  and one year of experience as a web developer working under
-                  contract for the US Department of Transportation.
-                </p>
-                <p>
-                  Extremely motivated and passionate life-long learner. Have
-                  been using Linux as primary operating system for almost a
-                  decade. Learned Python as a hobby, and learned how to use Vim
-                  because it seemed neat. After deciding to become a programmer,
-                  I spent a year of full-time practice/self-study before being
-                  accepted by WOS. In the year since then, my skills with
-                  JavaScript and Python have continued to develop, as I have
-                  become familiar with the languages in depth and used them to
-                  create solutions to real-world problems.
+                  Dedicated and passionate self-taught programmer with 2 years
+                  of experience: one as a contractor at the DoT, and one of
+                  full-time self-directed study and practice.
                 </p>
               </section>
               <section id="technicalSkillsSection">
                 <h2>Technical Skills</h2>
-                <em>Front End</em>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                </ul>
-                <em>Back End</em>
-                <ul>
-                  <li>Python</li>
-                  <li>PostgreSQL</li>
-                  <li>C#</li>
-                  <li>ASP.NET</li>
-                </ul>
-                <em>Misc</em>
-                <ul>
-                  <li>Unix/Linux command line (CLI)</li>
-                  <li>Git/Github</li>
-                  <li>Linux/Windows/OSX</li>
-                </ul>
+                <div>
+                  <em>Front End</em>
+                  <ul style={{ display: "inline" }}>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                  </ul>
+                </div>
+                <div>
+                  <em>Back End</em>
+                  <ul style={{ display: "inline" }}>
+                    <li>Python</li>
+                    <li>PostgreSQL</li>
+                    <li>C#</li>
+                    <li>ASP.NET</li>
+                  </ul>
+                </div>
+                <div>
+                  <em>Misc</em>
+                  <ul style={{ display: "inline" }}>
+                    <li>Unix/Linux command line (CLI)</li>
+                    <li>Git/Github</li>
+                    <li>Linux/Windows/OSX</li>
+                  </ul>
+                </div>
               </section>
+              <br />
               <section className="keywords">
                 <p style={{ fontSize: "smaller" }}>
                   <em>Keywords:</em>
@@ -189,7 +184,7 @@ const Resume = props => {
                       <em>Twitter Incident Report Map: </em>
                       Reverse-engineered and reconstructed an app (with access
                       only to the front-end code) using JavaScript (ES6), React,
-                      Redux, AWS (E2, RDS, S5), PostgreSQL, Mapbox, etc.
+                      Redux, AWS (EC2, RDS, S3), PostgreSQL, Mapbox, etc.
                       Deployed to Firebase, AWS, and Vultr (cloud VM) as staging
                       environment. Calculated projected costs and prepared
                       budget proposal for AWS infrastructure, which was
