@@ -185,10 +185,13 @@ const Resume = props => {
                       Reverse-engineered and reconstructed an app (with access
                       only to the front-end code) using JavaScript (ES6), React,
                       Redux, AWS (EC2, RDS, S3), PostgreSQL, Mapbox, etc.
-                      Deployed to Firebase, AWS, and Vultr (cloud VM) as staging
-                      environment. Calculated projected costs and prepared
-                      budget proposal for AWS infrastructure, which was
-                      accepted.
+                      Deployed{" "}
+                      <a href="https://incident-report-map.web.app">
+                        proof of concept to Firebase
+                      </a>{" "}
+                      , AWS, and Vultr (cloud VM). Calculated projected costs
+                      and prepared budget proposal for AWS infrastructure, which
+                      was accepted. Deployed with
                     </p>
                   </li>
                 </ul>
