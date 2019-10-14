@@ -181,7 +181,11 @@ const Resume = props => {
                 <ul>
                   <li>
                     <p>
-                      <em>Twitter Incident Report Map: </em>
+                      <em>
+                        <a href="https://github.com/lraulin/incident-map">
+                          Twitter Incident Report Map:
+                        </a>
+                      </em>{" "}
                       Reverse-engineered and reconstructed an app (with access
                       only to the front-end code) using JavaScript (ES6), React,
                       Redux, AWS (EC2, RDS, S3), PostgreSQL, Mapbox, etc.
@@ -198,10 +202,15 @@ const Resume = props => {
                 <ul>
                   <li>
                     <p>
-                      <em>DNS Script: </em>Constructed a NodeJS/SQLite console
-                      app that automated checking hundreds of DNS servers every
-                      hour and emailing a daily summary of any discrepancies.
-                      Deployed to a government BIND (Linux) server.
+                      <em>
+                        <a href="https://github.com/lraulin/dns-audit">
+                          DNS Script:
+                        </a>{" "}
+                      </em>
+                      Constructed a NodeJS/SQLite console app that automated
+                      checking hundreds of DNS servers every hour and emailing a
+                      daily summary of any discrepancies. Deployed to a
+                      government BIND (Linux) server.
                     </p>
                   </li>
                   <li>
@@ -217,7 +226,11 @@ const Resume = props => {
                   </li>
                   <li>
                     <p>
-                      <em>Syslog Analytics: </em>
+                      <em>
+                        <a href="https://github.com/lraulin/syslog_analytics">
+                          Syslog Analytics:
+                        </a>{" "}
+                      </em>
                       Composed Python script to parse/reformat spreadsheet files
                       to support cyber team.
                     </p>
