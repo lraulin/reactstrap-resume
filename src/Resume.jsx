@@ -60,7 +60,7 @@ const Resume = props => {
       <Container>
         <Row>
           <Col>
-            <Dropdown
+            {/* <Dropdown
               style={{ display: "inline" }}
               isOpen={dropDownIsOpen}
               toggle={toggleDropDown}
@@ -73,10 +73,10 @@ const Resume = props => {
                   </DropdownItem>
                 ))}
               </DropdownMenu>
-            </Dropdown>
-            <Button style={{ display: "inline" }} onClick={popup}>
-              Download
-            </Button>
+            </Dropdown> */}
+            <a href="https://www.dropbox.com/s/wiklvnfelgft8s9/Raulin_Lee_Resume_2019_08.PDF?dl=1">
+              <Button style={{ display: "inline" }}>Download PDF</Button>
+            </a>
             <article id="resume">
               <header>
                 <h1>Lee M. Raulin</h1>
