@@ -27,9 +27,9 @@ const Bar = props => {
           <NavItem>
             <NavLink href="/resume/">Resume</NavLink>
           </NavItem>
-          <NavItem>
+          {/* <NavItem>
             <NavLink href="/projects/">Projects</NavLink>
-          </NavItem>
+          </NavItem> */}
           <NavItem>
             <NavLink href="https://github.com/lraulin">
               <i className="fab fa-github"></i>
