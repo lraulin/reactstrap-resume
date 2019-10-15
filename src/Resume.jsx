@@ -41,6 +41,7 @@ const centered = {
 
 const floatLeft = {
   float: "left",
+  margin: ".5em",
 };
 
 const clear = {
@@ -85,7 +86,7 @@ const Resume = props => {
               {/* START contactSection */}
               <section
                 id="contactSection"
-                style={{ marginBottom: "1em", overflow: "hidden" }}
+                style={{ margin: "-.5em", overflow: "hidden" }}
               >
                 <span className="contactInfo phoneNumber" style={floatLeft}>
                   <i className="fas fa-mobile-alt"></i> (443) 684-8939
