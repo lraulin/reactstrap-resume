@@ -217,7 +217,7 @@ const Resume = props => {
                     <p>
                       <em>Vulnerability Visualization: </em>
                       Programmed a Python script that triggers on receipt of an
-                      email by a MS 365 account containing a report on security
+                      email by an MS 365 account containing a report on security
                       vulnerabilities. It extracts files attached to the PDF
                       file attached to the email, reformats the spreadsheets,
                       including calculated values, and emails them to a

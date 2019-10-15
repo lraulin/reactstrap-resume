@@ -1,5 +1,6 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col } from "reactstrap";
+import { Link } from "react-router-dom";
 
 const About = () => (
   <div id="about">
@@ -41,6 +42,9 @@ const About = () => (
               My hobbies include reading (nonfiction), fitness (Indian clubs,
               functional strength, yoga, kayaking, natural movement, etc), and
               camping.
+            </p>
+            <p>
+              See my <Link to="/resume/">resume</Link>.
             </p>
           </Col>
         </Row>
